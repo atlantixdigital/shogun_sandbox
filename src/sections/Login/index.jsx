@@ -42,7 +42,7 @@ const Login = ({ redirectTo }) => {
   return (
     <Container as="section" variant="section-wrapper-centered">
       <Heading as="h1" mb={6}>
-        Login
+        Dhaval Login
       </Heading>
 
       <AuthGuard allowedAuthStatus="unauthenticated" redirectUrl={redirectUrl}>
